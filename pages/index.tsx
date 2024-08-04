@@ -25,9 +25,18 @@ const Home: NextPage = () => {
         <WalletData />
       </header>
       <main className={styles.main}>
+      <div className={styles.text}>
+          <h1>Fundraising using a Soroban Template is easy, powerful, and trusted.</h1>
+          <h2>Get what you need to help your fundraiser succeed on Soroban, whether you’re raising money for yourself, friends, family, or charity. With no fee to start, Soroban is the world’s leading onchain crowdfunding platform—from memorial tributes and funerals to medical emergencies and nonprofits. Whenever you need help, you can ask here.</h2>
+        </div>
+
         <div className={styles.content}>
           <Campaign />
           <Pledge />
+        </div>
+        <div className={styles.text}>
+          <h3>Still have questions? Learn more about how Soroban works.</h3>
+          <p>Send us an email at <a href="/home"> support.soroban.psc</a></p>
         </div>
       </main>
     </>
